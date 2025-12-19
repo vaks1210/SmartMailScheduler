@@ -1,0 +1,18 @@
+{
+  "name": "EMAIL SCRAPPER",
+  "description": "Scrape emails",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["activeTab", "scripting", "identity","storage"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "oauth2": {
+    "client_id": "529739359127-o421d23cks2b76160jo1lu96r1aq76qh.apps.googleusercontent.com"
+    ,
+    "scopes": [
+      "https://www.googleapis.com/auth/calendar.readonly",
+      "https://www.googleapis.com/auth/calendar.events"
+    ]
+  }
+}
